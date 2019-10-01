@@ -13,11 +13,11 @@ Feature: Product list
   Scenario: Viewing list of products on the application's landing page
     When I'm on the landing page
     Then I should see "Lasagna"
-    And I should see "apple pie"
-    And I should see "salad"
     And I should see "It is good"
-    And I should see "It is tasty"
-    And I should see "It is green"
     And I should see "100"
+    And I should see "apple pie"
+    And I should see "It is tasty"
     And I should see "200"
+    And I should see "salad"
+    And I should see "It is green"
     And I should see "300"
