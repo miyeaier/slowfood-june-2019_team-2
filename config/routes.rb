@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
-  get 'landing/index'
+
   resources :products
 
-  root controller: :landing, action: :index
+  root controller: :products, action: :index
 
 end
