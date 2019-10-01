@@ -1,4 +1,7 @@
-%h1 Products List#index
-%p Lasagna
-%p apple pie
-%p salad
+%h1 Products List
+%ul
+  - @products.each do |product|
+    %li
+      = product.title
+      %br/
+      = product.content
