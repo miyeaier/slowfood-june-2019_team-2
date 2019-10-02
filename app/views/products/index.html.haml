@@ -1,0 +1,8 @@
+%h1 Products List
+%ul
+  - @products.each do |product|
+    %li
+      = product.title
+      %br/
+      = product.content
+      = product.price
