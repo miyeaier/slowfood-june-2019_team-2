@@ -7,6 +7,7 @@ RSpec.describe Product, type: :model do
     it {is_expected.to have_db_column :title}
     it {is_expected.to have_db_column :content}
     it {is_expected.to have_db_column :price}
+    it {is expected.to have_db_column :categories}
   end
 
   describe 'Validates attributes' do

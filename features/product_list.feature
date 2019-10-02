@@ -5,10 +5,10 @@ Feature: Product list
 
   Background:
     Given the following product exist
-      |title      |content    | price |
-      |Lasagna    |It is good | 100   |
-      |apple pie  |It is tasty| 200   |
-      |salad      |It is green| 300   |
+      |title      |content    | price |categories   |
+      |Lasagna    |It is good | 100   |starter      |
+      |apple pie  |It is tasty| 200   |main course  |
+      |salad      |It is green| 300   |dessert      |
 
   Scenario: Viewing list of products on the application's landing page
     When I'm on the landing page
