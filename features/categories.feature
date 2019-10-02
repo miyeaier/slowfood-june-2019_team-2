@@ -7,19 +7,21 @@ Feature: Showing categories
     Scenario: Creating category 1
       Given I visit "categories" page
       And I click "Create"
-      Then I should see "category starter"
-      And I click on "category starter"
+      Then I should see "starter"
+      And I click on "starter"
       Then I should see "salad"
 
     # Scenario: Creating category 2
-    #   When I click "Create"
-    #   Then I should see "category main course"
-    #   And I click on "category main course"
+    #   Given I visit "categories" page
+    #   And I click "Create"
+    #   Then I should see " main course"
+    #   And I click on " main course"
     #   Then I should see "lasagne"
 
     # Scenario: Creating category 3
-    #   When I click "Create"
-    #   Then I should see "category dessert"
-    #   And I click on "category dessert"
+    #   Given I visit "categories" page
+    #   And I click "Create"
+    #   Then I should see " dessert"
+    #   And I click on "dessert"
     #   Then I should see "apple pie"
     

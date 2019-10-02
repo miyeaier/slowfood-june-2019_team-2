@@ -15,3 +15,7 @@ end
 Given("I visit {string} page") do |string|
   visit root_path
 end
+
+Then("I click on {string}") do |string|
+  click_on (string)
+end
